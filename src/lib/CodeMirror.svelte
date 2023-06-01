@@ -31,12 +31,12 @@
     export let editable = true;
     export let readonly = false;
     export let placeholder: string | HTMLElement | null | undefined = undefined;
+    export let view: EditorView;
+    export let element: HTMLDivElement;
 
     const is_browser = typeof window !== "undefined";
     const dispatch = createEventDispatcher<{ change: string }>();
 
-    let element: HTMLDivElement;
-    let view: EditorView;
 
     let update_from_prop = false;
     let update_from_state = false;
