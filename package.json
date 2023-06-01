@@ -1,5 +1,5 @@
 {
-    "name": "svelte-codemirror-editor",
+    "name": "njonas-svelte-codemirror-editor",
     "description": "A svelte component to create a CodeMirror 6+ editor",
     "version": "0.0.0-development",
     "type": "module",
